@@ -1,0 +1,16 @@
+﻿.planet-img {
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+body {
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-image: url("assets/supernova-background.jpg")
+}
+
+.button-color {
+    color: crimson;
+}
