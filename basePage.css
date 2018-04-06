@@ -1,13 +1,13 @@
 ﻿.planet-img {
     margin-left: 50px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
 }
 
 body {
     color: white;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 125px;
+    margin-right: 125px;
     background-image: url("assets/supernova-background.jpg")
 }
 
