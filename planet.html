@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <title>Solar System</title>
@@ -13,6 +14,7 @@
     <script>
     </script>
 </head>
+
 <body>
     <style>
         .img-container {
@@ -30,61 +32,96 @@
             padding: 1%;
             color: white;
         }
-        #myCarousel{
+
+        #myCarousel {
             margin: 0px auto;
             max-width: 50%;
         }
-        h1{
+
+        h1 {
             font-weight: bold;
             font-size: 500%;
             background: -webkit-linear-gradient(top, #fff, grey);
-             -webkit-background-clip: text;
-             -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
     </style>
 
     <h1 class="text-center">Introduction to Solar System</h1>
     <h2 class="text-center" style="margin-left: 50px; color: red;">*Click images for more details</h2>
 
+    <!-- Start Carousel Slide -->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Start Slide Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+            <li data-target="#myCarousel" data-slide-to="8"></li>
+        </ol>
+        <!-- End Slide Indicators -->
         <div class="carousel-inner" role="listbox">
             <div class="img-container item active">
                 <h2 class="planet-text">Sun</h2>
-                <a href="sun.html"><img class="img-responsive planet-img" src="assets/sun.jpg" alt="Error reading img sun" /></a>
+                <a href="sun.html">
+                    <img class="img-responsive planet-img" src="assets/sun.jpg" alt="Error reading img sun" />
+                </a>
             </div>
             <div class="img-container item">
                 <h2 class="planet-text">Mercury</h2>
-                <a href="mercury.html"><img class="img-responsive planet-img" src="assets/mercury.jpg" alt="Error reading img mercury" /></a>
+                <a href="mercury.html">
+                    <img class="img-responsive planet-img" src="assets/mercury.jpg" alt="Error reading img mercury" />
+                </a>
             </div>
             <div class="img-container item">
                 <h2 class="planet-text">Venus</h2>
-                <a href="venus.html"><img class="img-responsive planet-img" src="assets/venus.jpg" alt="Error reading img venus" /></a>
+                <a href="venus.html">
+                    <img class="img-responsive planet-img" src="assets/venus.jpg" alt="Error reading img venus" />
+                </a>
             </div>
             <div class="img-container item">
                 <h2 class="planet-text">Earth</h2>
-                <a href="earth.html"><img class="img-responsive planet-img" src="assets/earth.jpg" alt="Error reading img earth" /></a>
+                <a href="earth.html">
+                    <img class="img-responsive planet-img" src="assets/earth.jpg" alt="Error reading img earth" />
+                </a>
             </div>
             <div class="img-container item">
                 <h2 class="planet-text">Mars</h2>
-                <a href="mars.html"><img class="img-responsive planet-img" src="assets/mars.jpg" alt="Error reading img mars" /></a>
+                <a href="mars.html">
+                    <img class="img-responsive planet-img" src="assets/mars.jpg" alt="Error reading img mars" />
+                </a>
             </div>
             <div class="img-container item">
-                <h2 class="planet-text">jupiter</h2>
-                <a href="jupiter.html"><img class="img-responsive planet-img" src="assets/jupiter.jpg" alt="Error reading img jupiter" /></a>
+                <h2 class="planet-text">Jupiter</h2>
+                <a href="jupiter.html">
+                    <img class="img-responsive planet-img" src="assets/jupiter.jpg" alt="Error reading img jupiter" />
+                </a>
             </div>
             <div class="img-container item">
                 <h2 class="planet-text">Saturn</h2>
-                <a href="saturn.html"><img class="img-responsive planet-img" src="assets/saturn.jpg" alt="Error reading img saturn" /></a>
+                <a href="saturn.html">
+                    <img class="img-responsive planet-img" src="assets/saturn.jpg" alt="Error reading img saturn" />
+                </a>
             </div>
             <div class="img-container item">
                 <h2 class="planet-text">Uranus</h2>
-                <a href="uranus.html"><img class="img-responsive planet-img" src="assets/uranus.jpg" alt="Error reading img uranus" /></a>
+                <a href="uranus.html">
+                    <img class="img-responsive planet-img" src="assets/uranus.jpg" alt="Error reading img uranus" />
+                </a>
             </div>
             <div class="img-container item">
                 <h2 class="planet-text">Neptune</h2>
-                <a href="neptune.html"><img class="img-responsive planet-img" src="assets/neptune.jpg" alt="Error reading img neptune" /></a>
+                <a href="neptune.html">
+                    <img class="img-responsive planet-img" src="assets/neptune.jpg" alt="Error reading img neptune" />
+                </a>
             </div>
         </div>
+
         <!-- Start Slide Controlers -->
         <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -94,9 +131,10 @@
             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
+        <!-- End Slide Controlers -->
     </div>
+    <!-- End Carousel Slide -->
 
 </body>
 
 </html>
-
